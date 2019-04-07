@@ -1,0 +1,61 @@
+.jumbotron {
+background: black;
+color:blue;
+font-family: 'Prompt', sans-serif;
+font-size: 90px;
+}
+
+body {
+    background-image: url(https://media.giphy.com/media/3oFzlWifRcnogZOs3m/giphy.gif);
+    background-size: cover;
+}
+
+.card-header {
+    background: black;
+    color: blue;
+    margin: 0 auto;
+    font-family: 'Prompt', sans-serif;
+    font-size: 35px;
+}
+
+.card-body {
+    background: black;
+    color: blue;
+}
+
+p {
+    background: black;
+    color: blue;  
+}
+
+.h5 {
+    font-size: 48px;
+}
+
+#number {
+    font-size: 48px;
+}
+
+#sum {
+    font-size: 32px;
+
+}
+
+#numberWins {
+    font-size: 32px;
+}
+
+#numberLosses {
+    font-size: 32px;
+}
+/*.col-sm-3 {
+    background: black;
+}*/
+
+/*.row {
+    background: black;
+}*/
+
+.card {
+    background: black;
+}
