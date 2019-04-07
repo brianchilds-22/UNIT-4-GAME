@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets\css\reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+    <title>Crystal Collector Game</title>
+</head>
+<body>
+    <br>
+    <br>
+<div class="container">
+  <div class="jumbotron text-center">
+      <h1>Crystal Collector</h1>
+  </div>
+
+  <div class="card">
+        <div class="card-header">
+         <h5>Instructions</h5> 
+        </div>
+        <div class="card-body">
+          <p class="card-text"> You will be given a random number at the start of the game.<br><br>
+              Select one of the four crystals to start the game and add a specific amount to your total score.<br><br>
+              You will not see the crystals value until you click on it.<br><br>
+              You win when your number matches the random number.<br><br>
+              You lose if your number is greater than the random number.
+          </p>
+         <!--- <a href="#" class="btn btn-primary">Go somewhere</a>-->
+        </div>
+    </div>   
+    <br>
+
+    
+    <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"><span id="number"></span></h5>
+                  <h5 class="card-title">Your total score is: <span id="sum"></span></h5>
+                  <!---<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5>Wins: <span id="numberWins"></span>
+                    <br>
+                    <br>
+                  Losses: <span id="numberLosses"></span></h5>
+                  <br>
+                  <!---<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+<br>  
+        <div class="card" style="width: 100%;">
+            <br>
+          <div class="row">
+            <div class="col-sm-3 text-center">
+            <img src="assets\images\image1.png" class="img-fluid" alt="red" id="firstJewel">
+            </div>
+            <div class="col-sm-3 text-center">
+            <img src="assets\images\image2.png" class="img-fluid" alt="bluedrop" id="secondJewel">
+            </div>
+            <div class="col-sm-3 text-center">
+            <img src="assets\images\image3.png" class="img-fluid" alt="yellow" id="thirdJewel">
+            </div>
+            <div class="col-sm-3 text-center">
+            <img src="assets\images\image4.png" class="img-fluid" alt="bluediamond" id="fourthJewel">
+            </div>
+            
+          </div>
+          <br>
+        </div>
+  
+
+<!---<div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Total Score</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Score Display</h5>
+              <<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+ <br>
+ <br>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="assets\javascript\game.js"></script>
+</body>
+
+
+</html>
